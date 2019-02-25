@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+  text-shadow: 15px 15px #aaa;
+  color:#ba7c10;
+}
+h3 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+body {
+  background-color:#cdc;
+  font-family: fantasy;
+}
+img {
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  border-style: dotted; 
+  border-width: 10px; 
+  border-color: #91274F;
+  padding: 10px;
+  width:500px;
+  float:left;
+  border-radius:75%;
+}
+hr {
+  border-style:dotted;
+  border-color: #ba7c10;
+  border-width:2px;
+}
+button {
+  color:#ba7c10;
+}
+h3 {
+  
+}
