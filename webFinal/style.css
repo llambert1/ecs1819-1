@@ -1,0 +1,16 @@
+.fantasy {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #c8b21e;
+    background-color: #cdc;
+}
+.line {
+    border-width: 3px;
+    border-color: #908019;
+    border-style: dashed;
+}
+.padding {
+    padding: 50px;
+}
+.size {
+    font-size: 100px;
+}
