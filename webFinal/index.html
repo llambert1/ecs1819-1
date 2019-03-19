@@ -7,8 +7,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </head>
-    <body data-spy="scroll" data-target=".navbar" data-offset="50"></body>
-        <div class="jumbotron fantasy"><h1 style="text-align: center;">Home Page - Lukas L.</h1></div>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <div class="jumbotron fantasy" style="background-color: #cdc;"><h1 style="text-align: center;">Home Page - Lukas L.</h1></div>
         <div class="container-fluid fantasy">
             <div class="row">
                 <div class="card col-lg-3">
@@ -29,35 +29,38 @@
                 </div>
             </div>
         </div>
+        <div id="demo" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-            <li data-target="#demo" data-slide-to="3"></li>
-        </ul>
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+            </ul>
 <!-- The slideshow -->
-        <div class="carousel-inner" style="ba">
-            <div class="carousel-item active" align="middle">
-                <img src="#" style="height: 500px;">
+            <div class="carousel-inner" style="ba">
+                <div class="carousel-item active" align="middle">
+                    <img src="images/laneTech.jpeg" alt="Lane Tech" style="height: 500px;">
+                </div>
+                <div class="carousel-item" align="middle">
+                    <img src="https://i.pinimg.com/originals/f8/1b/ca/f81bcaf606729b695387853a951f1d9f.jpg" style="height: 500px;">
+                </div>
+                <div class="carousel-item" align="middle">
+                    <img src="images/dwarf2.jpg" style="height: 500px;">
+                </div>
+                <div class="carousel-item" align="middle">
+                    <img src="https://theniftynerd.com/wp-content/uploads/2017/04/board-games.jpg" alt="stack of games" style="height: 500px;">
+                </div>
             </div>
-            <div class="carousel-item" align="middle">
-                <img src="#" style="height: 500px">
-            </div>
-            <div class="carousel-item" align="middle">
-                <img src="#" style="height: 500px;">
-            </div>
-            <div class="carousel-item" align="middle">
-                <img src="#" style="height: 500px;">
-            </div>
-        </div>
 <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <br>
         <div class="fantasy padding" id="section1" style="color:#908019;">
             <h2>My favorite foods</h2>
             <ol class="size">
@@ -97,5 +100,9 @@
                 <li>Cat condo</li>
             </ol>
         </div>
+        <footer>
+            Contact
+        </footer>
+        
     </body>
 </html>
