@@ -1,5 +1,5 @@
 .fantasy {
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: fantasy;
     color: #c8b21e;
     background-color: #cdc;
 }
@@ -15,7 +15,7 @@
     font-size: 20px;
 }
 .style2 {
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: fantasy;
     color: #c8b21e;
     background-color: #ACA;
 }
